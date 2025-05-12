@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px;
+  transition: background-color 0.5s ease;
+}
+
+button {
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Animation class */
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
+}
+
+.bounce {
+  animation: bounce 0.6s ease;
+}
+
+img {
+  width: 300px;
+  transition: transform 0.4s;
+}
